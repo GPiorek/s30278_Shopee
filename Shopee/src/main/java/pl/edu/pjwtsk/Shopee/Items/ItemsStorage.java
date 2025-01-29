@@ -7,15 +7,15 @@ import java.util.List;
 
 @Repository
 public class ItemsStorage {
-    List<Items> items = new ArrayList<>();
+    List<Item> items = new ArrayList<>();
 
-    public ItemsStorage(List<Items> items) {
+    public ItemsStorage(List<Item> items) {
         this.items = items;
-        items.add(new Items(1,"Milk", 10));
-        items.add(new Items(2, "Beer", 5));
+        items.add(new Item(1, "Milk", 10));
+        items.add(new Item(2, "Beer", 5));
     }
 
-    public List<Items> getItems() {
+    public List<Item> getItems() {
         return items;
     }
 

@@ -1,11 +1,11 @@
 package pl.edu.pjwtsk.Shopee.Items;
 
-public class Items {
+public class Item {
     int id;
     String itemName;
     double prize;
 
-    public Items(int id, String itemName, double prize) {
+    public Item(int id, String itemName, double prize) {
         this.id = id;
         this.itemName = itemName;
         this.prize = prize;
